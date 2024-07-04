@@ -1,3 +1,10 @@
+---
+title: "3D Printing Guide"
+permalink: index.html
+sidebar: generic
+product: Generic Product
+---
+
 # Basics
 
 This page is automatically generated from the [sparkmakerspace/3d-printing-guide](https://github.com/sparkmakerspace/3d-printing-guide) repository on GitHub.
