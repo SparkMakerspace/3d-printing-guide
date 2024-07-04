@@ -1,0 +1,188 @@
+PWD /home/spark/Documents
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /home/spark/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /home/spark/Documents/instructions.tex
+OUTPUT instructions.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./instructions.aux
+INPUT instructions.aux
+INPUT instructions.aux
+OUTPUT instructions.aux
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+OUTPUT instructions.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./file system.jpg
+INPUT ./file system.jpg
+INPUT file system.jpg
+INPUT ./file system.jpg
+INPUT ./file system.jpg
+INPUT ./home screen.jpg
+INPUT ./home screen.jpg
+INPUT home screen.jpg
+INPUT ./home screen.jpg
+INPUT ./home screen.jpg
+INPUT ./empty.jpg
+INPUT ./empty.jpg
+INPUT empty.jpg
+INPUT ./empty.jpg
+INPUT ./empty.jpg
+INPUT ./object contorls.jpg
+INPUT ./object contorls.jpg
+INPUT object contorls.jpg
+INPUT ./object contorls.jpg
+INPUT ./object contorls.jpg
+INPUT ./arrange.jpg
+INPUT ./arrange.jpg
+INPUT arrange.jpg
+INPUT ./arrange.jpg
+INPUT ./arrange.jpg
+INPUT ./printer list.jpg
+INPUT ./printer list.jpg
+INPUT printer list.jpg
+INPUT ./printer list.jpg
+INPUT ./printer list.jpg
+INPUT ./filament picker.jpg
+INPUT ./filament picker.jpg
+INPUT filament picker.jpg
+INPUT ./filament picker.jpg
+INPUT ./filament picker.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT ./support options.jpg
+INPUT ./support options.jpg
+INPUT support options.jpg
+INPUT ./support options.jpg
+INPUT ./support options.jpg
+INPUT ./other options.jpg
+INPUT ./other options.jpg
+INPUT other options.jpg
+INPUT ./other options.jpg
+INPUT ./other options.jpg
+INPUT ./sliced.jpg
+INPUT ./sliced.jpg
+INPUT sliced.jpg
+INPUT ./sliced.jpg
+INPUT ./sliced.jpg
+INPUT ./status.jpg
+INPUT ./status.jpg
+INPUT status.jpg
+INPUT ./status.jpg
+INPUT ./status.jpg
+INPUT instructions.aux
+INPUT /home/spark/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk
+INPUT /home/spark/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk
+INPUT /home/spark/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk
+INPUT /usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk
+INPUT /home/spark/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk
+INPUT /home/spark/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk
