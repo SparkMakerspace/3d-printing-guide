@@ -93,8 +93,8 @@ possible print results.
 The first thing we look at is the quality tab. The main things we can
 adjust here are:
 
-1.  Layer Height: This defines the layer height for layers numbered 0.2 **mm** is the default. Values as low as 1.5**mm** can be
-    used for more detailed layer, and up to 3.0**mm** can be used for faster prints.
+1.  Layer Height: This defines the layer height for layers numbered 0.2**mm** is the default. Values as low as 0.15**mm** can be
+    used for more detailed layer, and up to 0.3**mm** can be used for faster prints.
 
 2.  First Layer Height: This defines the layer height for the first layer only. It should be set between 100% and 120% the other layers’
     height.
