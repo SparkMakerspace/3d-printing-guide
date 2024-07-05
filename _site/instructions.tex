@@ -1,0 +1,115 @@
+\documentclass[12pt,legalpaper]{article}
+\author{Ray Huber}
+\title{Spark 3D Printer Basic Guide}
+
+\usepackage{graphicx}
+\graphicspath{{./}}
+
+\begin{document}
+
+\maketitle
+
+
+\pagebreak
+
+\section{Basics}
+\paragraph{Orientation.}
+This is the basic file system viewer in Ubuntu and the folders on this machine for printer use are marked.
+\begin{enumerate}
+    \item STL files (*.stl) go in the models folder.
+    \item Projects in OrcaSlicer can be saved in the projects folder.
+    \item Anything downloaded in Firefox automagically ends up in the Downloads folder.
+\end{enumerate}
+\includegraphics*{file system.jpg}
+
+When you launch OrcaSlicer this is the basic screen you get.
+
+\includegraphics*{home screen.jpg}
+
+From here you can open an existing project or start a new one (these options are also in the dropdown menu in the upper left.)
+
+\paragraph{Putting objects in a project.}
+
+This is the basic layout you see when a new project is started.
+
+\includegraphics*{empty.jpg}
+
+Objects can be added by dragging and dropping from the file system viewer. Once on the plate objects can be adjusted
+using the controls at the top of the window.
+
+\includegraphics*{object contorls.jpg}
+
+The tools in the object controls from left to right are:
+\begin{enumerate}
+    \item Translate: Move an object on the plate.
+    \item Rotate: Rotate an object.
+    \item Scale: Scale an object.
+    \item Place on face: This lets you pick a face on the object to align to the build plate.
+    \item Cut: Splits the object along a plane.
+    \item Mesh Boolean: This allows taking two meshes and doing a boolean operation on them (e.g. uninon.)
+    \item Support Painting: Allows you to force supports to or exclude supports from parts of the model.
+    \item Seam Painting: Allows you to tell the slicer where to put the seams in the outer perimeter.
+    \item Emboss: Allows you to imprint or extrude text on the object.
+    \item Measure: Slightly worse than a banana for scale.
+\end{enumerate}
+The arrange tool is used to distribute multiple objects evenly around the plate.
+
+\includegraphics*{arrange.jpg}
+
+\paragraph{Preparing for Slicing.}
+To setup for slicing we need to check the following things in the control panel on the left side of the window.
+First we select the printer we want to use. The printers have name tags on top of them.
+
+\includegraphics*{printer list.jpg}
+
+Next we check that the correct type of filament is selected. This will normally be PLA.
+
+\includegraphics*{filament picker.jpg}
+
+From there we go through the build settings to setup for the best possible print results.
+
+The first thing we look at is the quality tab. The main things we can adjust here are:
+\begin{enumerate}
+    \item Layer Height: This defines the layer height for layers numbered $>1$. $0.2mm$ is the default.
+    Values as low as $1.5mm$ can be used for more detailed layer, and up to $3.0mm$ can be used for faster prints.
+    \item First Layer Height: This defines the layer height for the first layer only. 
+    It should be set between $100\%$ and $120\%$ the other layers' height.
+    \item Seam Position: This is used to decide how the seams will be arranged on the object:
+    \begin{enumerate}
+        \item Aligned: keeps all the seams together on the object making a distinct line.
+        \item Nearest: Puts the seam in a position to minimize head travel between layers. This will make the seam pattern semi random
+        \item Back: Tries to hide view of the seams on the "back" of the object.
+        \item Random: Places the seams in a random position on each layer.
+    \end{enumerate}
+\end{enumerate}
+
+\includegraphics*{support options.jpg}
+
+Next we pick the support options. If the object has overhanging or floating sections that need supports check the box for supports.
+From there select the type of supports to use. With "Normal" the supports will be a basic rectilinear pattern. 
+With "Tree" supports the slicer will grow organic looking structures to support the object.
+With the "(auto)" option selected the slicer will automatically detect where supports are needed and add them in addition to any support painting that was done manually.
+With the "(manual)" option the slicer will only put supports where the user has forced them.
+
+\includegraphics*{other options.jpg}
+
+Finally we go to the tab for Other. The main option to adjust here is the brim. "Auto" will work for most meshes.
+If you want to force a brim select the appropriate kind for the mesh. And selecting "No-brim" will prevent a brim from being added.
+
+\paragraph{Now we slice.}
+Once we have all of our setttings checked hit the "Slice Plate" button in the upper right. The computer will think for a while then the view will look like below.
+
+\includegraphics*{sliced.jpg}
+
+From here we want to check the estimation of filament, and the printer to make sure the print will complete. 
+From there we hit the "Print" button and select "Upload \& Print."
+\textbf{Once the print starts make sure to ensure the first layer completes successfully.}
+
+\paragraph{And now we're printing with filament.}
+We can observe the state of the printer throught the device tab in OrcaSlicer.
+
+\includegraphics*{status.jpg}
+
+
+
+\end{document}

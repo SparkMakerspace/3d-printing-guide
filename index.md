@@ -6,6 +6,8 @@ permalink: /index.html
 
 # Basics
 
+These instructions cover use of the 3D Printing workstation in the Electronics Lab for printing on the Sovol 3D printers. Credentials for the workstation are available in the Electronics Lab.
+
 This page is automatically generated from the [sparkmakerspace/3d-printing-guide](https://github.com/sparkmakerspace/3d-printing-guide) repository on GitHub.
 
 # Orientation

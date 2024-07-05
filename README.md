@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "3D Printing Guide"
+title: "About"
 permalink: /about.html
 sidebar: About
 product: Generic Product
