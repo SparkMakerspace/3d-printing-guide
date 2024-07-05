@@ -1,8 +1,7 @@
 ---
+layout: page
 title: "3D Printing Guide"
-permalink: index.html
-sidebar: generic
-product: Generic Product
+permalink: /index.html
 ---
 
 # Basics
