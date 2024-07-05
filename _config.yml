@@ -2,7 +2,7 @@ title: 3D Printing Quick Reference
 description: >- # this means to ignore newlines until "baseurl:"
   Spark Makerspace 3D Printing Quick Reference
 baseurl: "/" 
-url: "https://3d-printing-guide.sparkmakerspace.org"
+url: "http://3d-printing-guide.sparkmakerspace.org"
 
 theme: minima
 plugins:
