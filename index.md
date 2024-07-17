@@ -6,16 +6,22 @@ permalink: /index.html
 
 # Basics
 
-These instructions cover use of the 3D Printing workstation in the Electronics Lab for printing on the Sovol 3D printers. Credentials for the workstation are available in the Electronics Lab.
+These instructions outline use of the 3D Printing workstation in the Electronics Lab for printing on the Sovol 3D printers. Credentials for the workstation are available in the Electronics Lab.
 
-This page is automatically generated from the [sparkmakerspace/3d-printing-guide](https://github.com/sparkmakerspace/3d-printing-guide) repository on GitHub.
+This is a living document we intend to update as procedures are refined. If you encounter something incorrect or that you feel could be refined. You are welcome to open an issue or pull request on the [sparkmakerspace/3d-printing-guide](https://github.com/sparkmakerspace/3d-printing-guide)  repository on GitHub.
+
+Please note that all units used in this document are metric (i.e. millimeters).
+
+*Spark Members may direct questions on these processes and the equipment in the electronics lab to the spark electronics leads via either discord or email.*
+
+Happy printing!
 
 # Orientation
 
 This is the basic file system viewer in Ubuntu and the folders on this
 machine for printer use are marked.
 
-* STL files (\*.stl) go in the models folder.
+* STL files (`\*.stl`) go in the models folder.
 
 * Projects in OrcaSlicer can be saved in the projects folder.
 
@@ -124,7 +130,7 @@ Once we have all of our setttings checked hit the "Slice Plate" button in the up
 
 ![image](sliced.jpg)
 
-From here we want to check the estimation of filament, and the printer to make sure the print will complete. From there we hit the "Print" button and select "Upload & Print." **Once the print starts make sure to ensure the first layer completes successfully.**
+From here we want to check the estimation of filament, and the printer to make sure the print will complete. From there we hit the "Print" button and select "Upload & Print." **Do not leave the Electronics Lab until you have confirmed the first layer printed successfully.**
 
 # And now we’re printing with filament.
 
