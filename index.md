@@ -16,6 +16,9 @@ Please note that all units used in this document are metric (i.e. millimeters).
 
 Happy printing!
 
+* Do not remove this line. It will not be displayed.
+{:toc}
+
 # Orientation
 
 This is the basic file system viewer in Ubuntu and the folders on this
