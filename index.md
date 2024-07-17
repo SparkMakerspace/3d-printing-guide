@@ -138,3 +138,11 @@ We can observe the state of the printer throught the device tab in
 OrcaSlicer.
 
 ![image](status.jpg)
+
+# Additional Help
+
+Should you run into questions not covered here, use one of the following options to get more help. Please provide as much detail as possible (*screenshots/images can  be a huge help in troubleshooting*).
+
+* Email the [Electronics Leads](mailto:electronics@sparkmakerspace.org)
+* Post a message in the Spark Discord (if you need an invite, ask!)
+* Stop by [Electronics Night](https://electronicsnight.com)
