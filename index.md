@@ -227,7 +227,11 @@ Should you run into questions not covered here, use one of the following options
 ## Common Printing Issues and Solutions
 
 Some other helpful links:
+
 [Link 1](https://coprint3d.com/blogs/tips-tricks/top-10-common-printing-issues-and-solutions)
+
 [Link 2](https://manufactur3dmag.com/common-problems-in-3d-printing-how-to-resolve-them-part-i/)
+
 [Link 3](https://www.geeetech.com/blog/3d-printing-trouble-shooting-guide/troubleshooting-guide-to-19-common-3d-printing-problemspart-one/)
+
 [Link 4](https://buildbee.com/blog/article/3d-print-troubleshooting-guide)
