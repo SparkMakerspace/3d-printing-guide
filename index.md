@@ -12,9 +12,11 @@ This is a living document we intend to update as procedures are refined. If you 
 
 Please note that all units used in this document are metric (i.e. millimeters).
 
-*Spark Members may direct questions on these processes and the equipment in the electronics lab to the spark electronics leads via either discord or email.*
+*Spark Members may direct questions on these processes and the equipment in the electronics lab to the spark electronics leads via either discord or email. See the "Additional Help" section at the end of this page for details.*
 
 Happy printing!
+
+This page is a living document automatically generated from a Git repository and will be updated over time. [Pull requests are welcome on the source repository on GitHub](https://github.com/sparkmakerspace/3d-printing-guide).
 
 * Do not remove this line. It will not be displayed.
 {:toc}
@@ -127,7 +129,7 @@ Next we pick the support options. If the object has overhanging or floating sect
 
 Finally we go to the tab for Other. The main option to adjust here is the brim. "Auto" will work for most meshes. If you want to force a brim select the appropriate kind for the mesh. And selecting "No-brim" will prevent a brim from being added.
 
-# Now we slice.
+# Slicing
 
 Once we have all of our setttings checked hit the "Slice Plate" button in the upper right. The computer will think for a while then the view will look like below.
 
@@ -137,67 +139,70 @@ From here we want to check the estimation of filament, and the printer to make s
 
 # And now we’re printing with filament.
 
-We can observe the state of the printer throught the device tab in
+We can now observe the state of the printer through the device tab in
 OrcaSlicer.
 
 ![image](status.jpg)
 
-# Using the Sovol Klipper Touchscreen:
+# Using the Sovol Klipper Touchscreen
 
 ![image](Klipper_touchscreen.jpg)
 
-# Loading and Unloading Filament:
+# Loading and Unloading Filament
 
-## How to load (1a) and unload (2a) filament. 
+## Loading and Unloading Filament. 
 
-### 1a.  How to load filament:
+If an idle printer you wish to use is out of filament (or doesn't have enough remaining), the following sections outline the steps to unload and load filament.
+
+Confirm that the filament you are loading is labeled (on the spool and/or box) as PLA or PLA+ (or PLA Pro). Speak with a lead before attempting to print any other material.
+### Loading Filament
 
 1.  Pick printer you would like to use.
-1.  Home printer: (Wake screen by pressing the touchscreen, if necessary)  On home screen (Four squares-bottom left center), press “Homing” button, then press “Home All”
+1.  Home printer: (Wake screen by pressing the touchscreen, if necessary)  On home screen (Four squares-bottom left center), press "Homing" button, then press "Home All"
 1.  Make sure the hot end is high enough above the print bed when you attempt to push through the filament so that it doesn’t clog up the nozzle, by raising the extruder in the Z-direction.
-1. 	->To do this go to main menu, Press “Homing”, to right of screen, press “Z+” button (top right) at least one time.
+1. 	->To do this go to main menu, Press "Homing", to right of screen, press "Z+" button (top right) at least one time.
 1.  Load spool on spool holder and prepare filament to load into extruder inlet by making sure there are no tangles of the filament winding.  
 1.  Clip end of filament to have a clean end (if needed)
 1.  Before you insert the filament into the extruder inlet, you must heat up the extruder.
 	->To do this:
 Press- Left arrow, at the bottom right of the screen
-Press “Actions"
-Press “Extrude”
-*Press “Temperature”, Select PLA (note: we do not print ABS at Spark)	
+Press "Actions"
+Press "Extrude"
+*Press "Temperature", Select PLA (note: we do not print ABS at Spark)	
 Allow extruder and build plate (print bed) to come up to temperature.  (wait approximately 2 mins), extruder temperature will rise to about 210C, bed temp will rise to 50C. (Wait- the actual temps are at the top of the screen)
 Press- Left arrow (bottom right of the screen)
-Press the “Extrude” button then “Load”
+Press the "Extrude" button then "Load"
 1.  Place filament into extruder inlet filament port
 until you feel some resistance
-![image](sv06_Extruder.jpg)
-1.  Press “Load” (If you get a warning: “extrude below minimum temp”, go to *) until you see plastic extrude out of the hot end onto  the build plate.  Press load again until you see new color filament extruded onto build plate.
+![image](sv06_extruder.jpg)
+1.  Press "Load" (If you get a warning: "extrude below minimum temp", go to *) until you see plastic extrude out of the hot end onto  the build plate.  Press load again until you see new color filament extruded onto build plate.
 1.  Let go of the filament 
 1.  Remove the extruded plastic from the build plate.
 The filament is now loaded and ready to print.
 
-### 2a.  How to unload filament (to change color or new spool)
+### Unloading Filament (to change color or new spool)
 
-2.  Home printer: On home Sovol screen, Press “Main Menu”, press “Homing” button, then press “Home All” (wait for movement to stop)
+2.  Home printer: On home Sovol screen, Press "Main Menu", press "Homing" button, then press "Home All" (wait for movement to stop)
 2.  Press- Left arrow, at the bottom right of the screen (see green circle above)
-Press “Temperature”, Select PLA
+Press "Temperature", Select "PLA"
 	Allow extruder and build plate (print bed) to come up to temperature. (wait approximately 2 mins), extruder temperature will rise to about 210C, bed temp will rise to 50C.
 Press left arrow (bottom right) to go to previous screen.
-Press “Actions"
-Press “Extrude”
-Press “Unload”, wheel on extruder will start to turn, at this point it is ok to pull on the filament as the filament is extracting. 
+Press "Actions"
+Press "Extrude"
+Press "Unload", wheel on extruder will start to turn, at this point it is ok to pull on the filament as the filament is extracting. 
 At this point the filament is unloaded.
 
-# To print a previous print from the Klipper touchscreen:
+# To print a previous print from the Klipper touchscreen
 
 Press four squares
-Press “Print” to reprint a previously uploaded print (Note: if you don’t have a print already loaded, please go to the section on “Putting Objects in a Project)
+Press "Print" to reprint a previously uploaded print (Note: if you don’t have a print already loaded, please go to the section on "Putting Objects in a Project)
 Look for your desired print file on the screen (you may need to scroll down the screen)
 Hit the icon to the left of the file name
-Select your print to reprint then press “Print”
+Select your print to reprint then press "Print"
 
-Press “Print” to reprint a previously uploaded print (Note: if you don’t have a print already loaded, please go to the section on “Putting Objects in a Project)
+Press "Print" to reprint a previously uploaded print (Note: if you don’t have a print already loaded, please go to the section on "Putting Objects in a Project)
 Look for your prior print on the screen
-Select your print to reprint then press “Print”
+Select your print to reprint then press "Print"
 
 # Clearing the bed, what is ok to do and what not to put on the build plate.
 
@@ -207,31 +212,27 @@ Please do not scrape or damage the print bed.
 
 # Stopping a print:
 
-Press the “stop” button (Orange circle)
+Press the "stop" button (Orange circle)
 Press Continue
 
 
 
 
-# Additional Help
+# Troubleshooting / Additional Help
 
 Should you run into questions not covered here, use one of the following options to get more help. Please provide as much detail as possible (*screenshots/images can  be a huge help in troubleshooting*).
 
 * Email the [Electronics Leads](mailto:electronics@sparkmakerspace.org)
 * Post a message in the Spark Discord (if you need an invite, ask!)
 * Stop by [Electronics Night](https://electronicsnight.com)
-
-
-# Troubleshooting:
-
 ## Common Printing Issues and Solutions
 
 Some other helpful links:
 
-[Link 1](https://coprint3d.com/blogs/tips-tricks/top-10-common-printing-issues-and-solutions)
+* [Top 10 Common Printing Issues and Solutions](https://coprint3d.com/blogs/tips-tricks/top-10-common-printing-issues-and-solutions)
 
-[Link 2](https://manufactur3dmag.com/common-problems-in-3d-printing-how-to-resolve-them-part-i/)
+* [Common Problems in 3D Printing & How to Resolve Them](https://manufactur3dmag.com/common-problems-in-3d-printing-how-to-resolve-them-part-i/)
 
-[Link 3](https://www.geeetech.com/blog/3d-printing-trouble-shooting-guide/troubleshooting-guide-to-19-common-3d-printing-problemspart-one/)
+* [3D Printer Troubleshooting Guide to 19 Common 3D Printing Problems](https://www.geeetech.com/blog/3d-printing-trouble-shooting-guide/troubleshooting-guide-to-19-common-3d-printing-problemspart-one/)
 
-[Link 4](https://buildbee.com/blog/article/3d-print-troubleshooting-guide)
+* [3D Print Troubleshooting Guide](https://buildbee.com/blog/article/3d-print-troubleshooting-guide)
