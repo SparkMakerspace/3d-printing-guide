@@ -3,7 +3,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Spark Makerspace Electronics & Technology Lab
 baseurl: "/" 
 url: "http://3d-printing-guide.sparkmakerspace.org"
-
+sass:
+  quiet_deps: true
 theme: minima
 plugins:
   - jekyll-relative-links
