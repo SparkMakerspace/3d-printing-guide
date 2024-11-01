@@ -225,6 +225,7 @@ Should you run into questions not covered here, use one of the following options
 * Email the [Electronics Leads](mailto:electronics@sparkmakerspace.org)
 * Post a message in the Spark Discord (if you need an invite, ask!)
 * Stop by [Electronics Night](https://electronicsnight.com)
+
 ## Common Printing Issues and Solutions
 
 Some other helpful links:
