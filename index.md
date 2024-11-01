@@ -184,11 +184,11 @@ The filament is now loaded and ready to print.
 
 2.  Home printer: On home Sovol screen, Press "Main Menu", press "Homing" button, then press "Home All" (wait for movement to stop)
 2.  Press- Left arrow, at the bottom right of the screen (see green circle above)
-Press "Temperature", Select "PLA"
+Press "Temperature", Select "PLA".
 	Allow extruder and build plate (print bed) to come up to temperature. (wait approximately 2 mins), extruder temperature will rise to about 210C, bed temp will rise to 50C.
 Press left arrow (bottom right) to go to previous screen.
-Press "Actions"
-Press "Extrude"
+Press "Actions".
+Press "Extrude".
 Press "Unload", wheel on extruder will start to turn, at this point it is ok to pull on the filament as the filament is extracting. 
 At this point the filament is unloaded.
 
@@ -206,17 +206,15 @@ Select your print to reprint then press "Print"
 
 # Clearing the bed, what is ok to do and what not to put on the build plate.
 
-It is ok to remove the bed and flex the metal plate to remove the plate.
-It is OK to use your fingernail, plastic spatula or other non-metal tool to remove the residual filament on the print bed.
-Please do not scrape or damage the print bed.
+* It is OK to remove the build plate from the printer and flex the metal plate to remove the print from the plate.
+* It is OK to use your fingernail, plastic spatula or other non-metal tool to remove the residual filament on the print bed.
+* Please **do not** scrape or damage the build plate.
+* Please **do not** use metal tools to pry or scrape prints from the build plate.
 
-# Stopping a print:
+# Stopping a print
 
 Press the "stop" button (Orange circle)
-Press Continue
-
-
-
+Press "Continue".
 
 # Troubleshooting / Additional Help
 
